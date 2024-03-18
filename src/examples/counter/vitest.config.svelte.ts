@@ -15,7 +15,7 @@ export default defineConfig({
     globals: true,
     include: ['**/*.svelte.test.*'],
     environment: 'jsdom',
-    setupFiles: path.resolve(__dirname, '../../../test/setup.ts'),
+    setupFiles: path.resolve(__dirname, './test/setup.ts'),
     environmentMatchGlobs: [
       ['**/*.test.tsx', 'jsdom'],
       ['**/*.component.test.ts', 'jsdom'],
