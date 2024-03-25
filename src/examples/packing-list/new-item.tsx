@@ -21,6 +21,7 @@ const NewItem = () => {
       <div className="my-2 flex">
         <input
           id="new-item-name"
+          data-testid="new-item-input"
           className="w-full"
           type="search"
           placeholder="New Item"
